@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+
+    background-image: url("../images/bk-img.png");
+    background-repeat: repeat;
+
+}
+
+
+nav {
+
+        width: 100%;
+        height: 80px;
+        background: #ffffff;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #dddddd;
+        
+}
+
+ul {
+    
+}
+
+ul li {
+     display: inline-block;
+     float: right;
+     line-height: 100px;
+}
+
+ul li a {
+    
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    padding: 0 20px;
+    display: block;
+
+
+}
+ li a:after:not-last {
+
+
+        content: "|";
+        padding-right: 20px;
+        padding-left: 20px;
+    
+}
+li a:first-child:after{
+    content: "":
+}
+
+.container{
+    margin-top: 40px;
+    width: 960px;
+    height: 400px;
+    background: #ffffff ;
+    margin: AUTO;
+    border:2px solid #dddddd;
+    
+
+}
